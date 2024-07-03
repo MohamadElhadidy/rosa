@@ -11,8 +11,8 @@
     <meta name="keywords" content="index, page">
     <meta name="author" content="">
     <link rel="shortcut icon" type="image/x-icon"
-        href="/assets/imgs/template/favicon.svg">
-    <link href="/assets/css/style.css?v=1.0.0" rel="stylesheet">
+        href="{{ asset('assets/imgs/template/favicon.svg')}}">
+    <link href="{{ asset('assets/css/style.css?v=1.0.0')}}" rel="stylesheet">
     <title>Rosa Store</title>
     {{-- @vite('resource/js/app.js') --}}
 </head>
